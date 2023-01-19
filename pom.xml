@@ -37,7 +37,7 @@
 				<workerType>${worker.type}</workerType>
 				<applicationName>world time zone service</applicationName>
 				<muleVersion>${mule.version}</muleVersion>
-				<password${password}</password>
+				<password>${password}</password>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>

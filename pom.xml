@@ -27,9 +27,9 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
+				<version>1.7</version>
 				<extensions>true</extensions>
-				<configuration>
+				<<configuration>
 				<cloudHubDeployment>
 				<username>${username}</username>
 				<environment>${environment}</environment>
@@ -39,7 +39,7 @@
 				<muleVersion>${mule.version}</muleVersion>
 				<password>${password}</password>
 				</cloudHubDeployment>
-				</configuration>
+				</configuration> 
 			</plugin>
 		</plugins>
 	</build>
